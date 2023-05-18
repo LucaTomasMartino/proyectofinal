@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+/**font-family: 'Almendra SC', serif;**/
+body{
+    overflow-x: hidden;
+}
+header {
+    font-family: 'Almendra SC', serif; 
+    background-color: #E72B2B;
+}
+    a {
+    text-decoration:none ;
+} 
+.escudo {
+    position: relative;
+    left: 50px; top: 20px;
+}
+h1{
+    color: #ffffff; 
+    position: relative;
+    left: 350px; bottom: 70px;
+    letter-spacing: 3px;
+    font-size: 75px;
+}
+h2{
+    font-size: 45px;
+    padding-left: 25px;
+}
+h5 {    
+    color: #ffffff;
+    font-size: 50px;
+    position:relative ;
+    left: 100px; 
+    bottom: 93px;
+}     
+.barraDeNavegacion{
+    border-top: 3px solid #ffffff;
+    width: 100%;
+    background-color: #D20606; 
+    font-family: 'Almendra SC', serif;
+    ul: color: #ffffff;
+}
+#menu a:hover{
+    color:     #D20606; 
+    background: #ffffff;
+    animation: 1s ms 1;
+}
+@keyframes ms {
+    0%{
+            opacity: 0;
+            transform: scale(1.2);
+    }
+}
+    ul{
+            margin: 0px;
+            padding: 0px; 
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+}
+    li{
+        float: left;
+}
+    li a{
+            display: block;
+            color: #ffffff;
+            text-align: center;
+    padding: 26px 50px;
+}
+main{
+    font-family: 'Almendra SC', serif;
+}
+p{
+    text-indent: 65px;
+    font-size: 25px;
+    font-weight: lighter;
+    padding-left: 15px;
+}
+.fundacion{
+    position: relative;
+    left: 25px;
+    top: 60px;
+    height: 300px;
+    width: auto;
+}
+.fundaciontitulo {
+    position: relative;
+    left: 550px;
+    bottom: 275px;
+}
+.p1fundacion {
+    max-width:780px;
+    position: relative;
+    bottom:250px ;
+    left: 470px;
+}
+.p2fundacion{
+    position: relative;
+    bottom: 215px;
+}
+.p3fundacion{
+    position: relative;
+    bottom: 200px;
+}
+.colorestitulo{
+    position: relative;
+    bottom: 160px;
+}
+.pcolores{
+    position: relative;
+    bottom: 150px;
+}
+.hescudos{
+    position: relative;
+    left: 650px;
+    bottom:100px ;
+}
+.escudotitulo {
+    position: relative;
+    bottom: 470px;
+}
+.pescudo{
+    position: relative;
+    bottom: 440px;
+    max-width: 700px;
+}
+.himnostitulo{
+    position: relative;
+    bottom:320px ;
+}
+.p1himnos{
+    position: relative;
+    bottom: 290px; 
+}
+.himno1{
+    position: relative;
+    text-indent: 0%;
+    text-align: center;
+    font-size: 35px;
+    color: #D20606;
+    bottom: 260px;
+}
+.p2himnos{
+    position: relative;
+    bottom: 200px;
+}
+.himno2{
+    position: relative;
+    text-indent: 0%;
+    text-align: center;
+    font-size: 35px;
+    color: #D20606;
+    bottom: 160px;
+}
+.p1camisetas{
+    max-width:980px;
+    position: relative;
+    bottom:-45px ;
+    left: 270px;
+}
+.columnacamisetas{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 450px;
+}
+.columnacamisetas img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: #E72B2B;
+    position: relative;
+}
+.footercamisetas{
+    top: 100px;
+}
+footer h4 {
+    text-align: center; 
+    font-family: 'Almendra SC', serif; 
+    color: #ffffff;
+} 
