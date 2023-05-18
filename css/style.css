@@ -185,3 +185,52 @@ footer h4 {
     font-family: 'Almendra SC', serif; 
     color: #ffffff;
 } 
+@media (max-width: 1024px){
+    .escudo{
+        left: 35px;
+        height: 190px;
+        width: auto;
+    }
+    h1{
+        left:250px ;
+    }
+    h5{
+        left: 85px;
+    }
+    .fundacion{
+        height: 280px;
+        width: auto;
+        left: 15px;
+        top: 90px;
+    }
+    .fundaciontitulo{
+        bottom: 260px;
+        left:505px ;
+    }
+    .p1fundacion{
+        left: 430px;
+        max-width: 590px;
+    }
+    .pescudo{
+        max-width: 1020px;
+    }
+    .hescudos{
+        left: 300px;
+        bottom: -130px;
+    }
+    .himnostitulo{
+        bottom: 180px;
+    }
+    .p1himnos{
+        bottom: 130px;
+    }
+    .himno1{
+        bottom: 100px;
+    }
+    .p2himnos{
+        bottom: 70px;
+    }
+    .himno2{
+        bottom: 50px;
+    }
+}
