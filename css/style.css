@@ -285,3 +285,164 @@ footer h4 {
         bottom: -140px;
     }
 }
+@media (max-width:425px){
+    .escudo{
+        height: 115px;
+        width: auto;
+        left: 20px;
+    }
+    h1{
+        font-size: 45px;
+        left: 153px;
+        bottom: 33px;
+    }
+    h2{
+        font-size: 33px;
+    }
+    h5{
+        font-size: 30px;
+        left: 49px;
+        bottom: 98px;
+    }
+    .fundacion{
+        top: 480px;
+        left: 50px;
+    }
+    .fundaciontitulo{
+        bottom: 210px;
+        left: 30px;
+    }
+    .p1fundacion{
+        left: 0px;
+    }
+    .p2fundacion{
+        bottom: -40px;
+    }
+    .p3fundacion{
+        bottom: -40px;
+    }
+    .colorestitulo{
+        bottom: -40px;
+    }
+    .pcolores{
+        bottom: -40px;
+    }
+    .escudotitulo{
+        bottom: 130px;
+    }
+    .pescudo{
+        bottom: 125px;
+    }
+    .hescudos{
+        width: 305px;
+        height: auto;
+        bottom: -420px;
+        left: 130px;
+    }
+    .himnostitulo{
+        bottom: 0px;
+    }
+    .p1himnos{
+        bottom: -10px;
+    }
+    .himno1{
+        font-size: 30px;
+        bottom: -20px;
+    }
+    .p2himnos{
+        bottom: -20px;
+    }
+    .himno2{
+        font-size: 30px;
+        bottom: -20px;
+    }
+    footer{
+        bottom: -20px;
+    }
+    ul{
+        justify-content: left;
+    }
+    nav ul{
+        list-style-type: none;
+    margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin: -22px 0;
+    }
+}
+@media (max-width:375px){
+    .escudo{
+        height: 90px;
+        width: auto;
+    }
+    h1{
+        font-size: 40px;
+        left: 133px;
+        bottom: 20px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 14px;
+    }
+    h5{
+        font-size: 28px;
+        left: 39px;
+        bottom: 88px;
+    }
+    .fundacion{
+        top: 530px;
+        left: 27px;
+    }
+    .hescudos{
+        bottom: -460px;
+        left: 90px;
+    }
+    .himno1 .himno2{
+        font-size: 20px;
+    }
+}
+@media (max-width:320px){
+    .escudo{
+        height: 70px;
+        width: auto;
+    }
+    h1{
+        font-size: 32px;
+        left: 113px;
+        bottom: 10px;
+    }
+    h2{
+        font-size: 27px;
+    }
+    h4{
+        font-size: 12px;
+    }
+    h5{
+        font-size: 21px;
+        bottom: 68px;
+        left: 35px;
+    }
+    .fundacion{
+        height: 200px;
+        width: auto;
+        top: 630px;
+        left: 20px;
+    }
+    .fundaciontitulo{
+        bottom: 200px;
+    }
+    .hescudos{
+        height: 130px;
+        width: auto;
+        bottom: -530px;
+    }
+    .himno1 .himno2{
+        font-size: 16px;
+    }
+}
