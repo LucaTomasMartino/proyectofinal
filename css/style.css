@@ -234,3 +234,54 @@ footer h4 {
         bottom: 50px;
     }
 }
+@media (max-width:768px){
+    .escudo{
+        height: 150px;
+        width: auto;
+        left: 25px;
+    }
+    h1{
+        font-size: 55px;
+        left: 185px;
+        bottom: 53px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h5{
+        font-size: 40px;
+        left: 62px;
+        bottom: 68px;
+    }
+    .fundacion{
+        height: 220px;
+        width: auto;
+        top: 150px;
+    }
+    .fundaciontitulo{
+        bottom: 180px;
+        left: 45px;
+    }
+    p{
+        font-size: 22px;
+    }
+    .p1fundacion{
+        max-width: 445px;
+        bottom: 200px;
+        left: 325px;
+    }
+    .p2fundacion{
+        bottom: 200px;
+    }
+    .escudotitulo{
+        bottom: 345px;
+    }
+    .pescudo{
+        bottom: 325px;
+    }
+    .hescudos{
+        width: 405px;
+        height: auto;
+        bottom: -140px;
+    }
+}
