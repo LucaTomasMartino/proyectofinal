@@ -173,12 +173,31 @@ p{
     width: 100%;
     margin-bottom: 10px;
 }
+.footercamisetas{
+    top: 100px;
+}
+.p1estadio{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.containeres1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.p3estadio{
+    margin-bottom: 30px;
+}
+.containeres2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
 footer{
     background-color: #E72B2B;
     position: relative;
-}
-.footercamisetas{
-    top: 100px;
 }
 footer h4 {
     text-align: center; 
