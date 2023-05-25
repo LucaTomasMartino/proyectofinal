@@ -195,6 +195,90 @@ p{
     align-items: center;
     margin-bottom: 30px;
 }
+.container3{
+    
+}
+.h2ref{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.grid1referentes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+    padding: 30px;
+    border: 4px solid #E72B2B;
+    background-color: #D20606;
+    margin-top: 40px;
+}
+.item1{
+    width: 100%;
+}
+.item1 img{
+    width: 50%;
+    height: auto;
+}
+.grid2referentes{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px;
+    text-align: center;
+    padding: 30px;
+    border: 4px solid #E72B2B;
+    background-color: #D20606;
+    margin-top: 40px;
+}
+.item2{
+    width: 100%; 
+}
+.item2 img{
+    width: 50%; 
+    height: auto; 
+}
+.grid3referentes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+    padding: 30px;
+    border: 4px solid #E72B2B;
+    background-color: #D20606;
+    margin-top: 40px;
+}
+.item3{
+    width: 100%;
+}
+.item3 img {
+    width: 50%; 
+    height: auto;
+}
+.referentes4{
+    text-align: center;
+    padding: 30px;
+    border: 4px solid #E72B2B;
+    background-color: #D20606;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.item4{
+    width: 100%;
+}
+.item4 img{
+    width: 20%;
+    height: auto;
+}
+.imgsede{
+    border: 5px solid red; 
+    background: linear-gradient(90deg, red, white); 
+    padding: 10px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+.imgsede img {
+    max-width: 100%;
+}
 footer{
     background-color: #E72B2B;
     position: relative;
@@ -354,6 +438,11 @@ footer h4 {
     .p1camisetas{
         max-width:550px ;
         left: 200px;
+    }
+    .escudo.ref{
+        height: 150px;
+        width: auto;
+        left: 25px;
     }
     }
 @media (max-width:425px){
