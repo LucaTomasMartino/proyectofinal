@@ -78,6 +78,7 @@ p{
     font-size: 25px;
     font-weight: lighter;
     padding-left: 15px;
+    text-align: justify;
 }
 .fundacion{
     position: relative;
@@ -343,6 +344,12 @@ footer h4 {
     }
 }
 @media (max-width: 1024px){
+    header{
+        overflow-x: hidden;
+    }
+    main{
+        overflow-x: hidden;
+    }
     .escudo{
         left: 35px;
         height: 190px;
@@ -401,6 +408,12 @@ footer h4 {
     }
 }
 @media (max-width:768px){
+    header{
+        overflow-x: hidden;
+    }
+    main{
+        overflow-x: hidden;
+    }
     .escudo{
         height: 150px;
         width: auto;
@@ -474,6 +487,12 @@ footer h4 {
     }
     }
 @media (max-width:425px){
+    header{
+        overflow-x: hidden;
+    }
+    main{
+        overflow-x: hidden;
+    }
     .escudo{
         height: 115px;
         width: auto;
@@ -564,6 +583,9 @@ footer h4 {
     nav ul li {
         margin: -22px 0;
     }
+    .maincamiseta{
+        overflow-x: hidden;
+    }
     .escudocamiseta{
         height: 115px;
         width: auto;
@@ -586,6 +608,12 @@ footer h4 {
     }
 }
 @media (max-width:375px){
+    header{
+        overflow-x: hidden;
+    }
+    main{
+        overflow-x: hidden;
+    }
     .escudo{
         height: 90px;
         width: auto;
@@ -617,6 +645,9 @@ footer h4 {
     .himno1 .himno2{
         font-size: 20px;
     }
+    .maincamiseta{
+        overflow-x: none;
+    }
     .escudocamiseta{
         height: 90px;
         width: auto;
@@ -632,6 +663,12 @@ footer h4 {
     }
 }
 @media (max-width:320px){
+    header{
+        overflow-x: hidden;
+    }
+    main{
+        overflow-x: hidden;
+    }
     .escudo{
         height: 70px;
         width: auto;
@@ -675,6 +712,9 @@ footer h4 {
     }
     .himno1 .himno2{
         font-size: 16px;
+    }
+    .maincamiseta{
+        overflow-x: none;
     }
     .escudocamiseta{
         height: 70px;
