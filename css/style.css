@@ -48,6 +48,9 @@ h5 {
     background: #ffffff;
     animation: 1s ms 1;
 }
+.nav-label , .nav-input{
+    display: none;
+}
 @keyframes ms {
     0%{
             opacity: 0;
@@ -539,19 +542,32 @@ footer h4 {
     }
     }
 @media (max-width:425px){
-    header{
-        overflow-x: hidden;
-    }
-    main{
-        overflow-x: hidden;
-    }
     .escudo{
         height: 115px;
         width: auto;
         left: 20px;
     }
-    li a{
-        padding: 60px 100px
+    .nav-label{
+        display: block;
+        cursor: pointer;
+    }
+    .barraDeNavegacion{
+        position: absolute;
+        top: 300px;
+        bottom: 100px;
+        background-color: #E72B2B;
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        clip-path: circle(0 at center);
+        transition: clip-path 1s ease-in-out;
+        z-index: 1;
+    }
+    .nav-input:checked + .barraDeNavegacion{
+        clip-path: circle(100% at center);
     }
     h1{
         font-size: 45px;
@@ -620,20 +636,6 @@ footer h4 {
     }
     footer{
         bottom: -20px;
-    }
-    ul{
-        justify-content: left;
-    }
-    nav ul{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    nav ul li {
-        margin: -22px 0;
     }
     .maincamiseta{
         overflow-x: hidden;
