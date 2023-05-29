@@ -542,17 +542,25 @@ footer h4 {
     }
     }
 @media (max-width:425px){
+    header{
+        height: 230px;
+        width: 100%;
+    }
     .escudo{
         height: 115px;
         width: auto;
         left: 20px;
+    }
+    .nav-container{
+        position: absolute;
+        top: 190px;
     }
     .nav-label{
         display: block;
         cursor: pointer;
     }
     .barraDeNavegacion{
-        position: absolute;
+        position: fixed;
         top: auto;
         bottom: auto;
         background-color: #E72B2B;
@@ -634,9 +642,7 @@ footer h4 {
         font-size: 30px;
         bottom: -20px;
     }
-    footer{
-        bottom: -20px;
-    }
+
     .escudocamiseta{
         height: 115px;
         width: auto;
@@ -655,26 +661,28 @@ footer h4 {
     .columnacamisetas img{
         width: 100px;
         height: auto;
-        margin-bottom: 550px;
+        margin-bottom: 430px;
     }
 }
 @media (max-width:375px){
     header{
-        overflow-x: hidden;
-    }
-    main{
-        overflow-x: hidden;
+        height: 190px;
+        width: 100%;
     }
     .escudo{
         height: 90px;
         width: auto;
+    }
+    .nav-container{
+        position: absolute;
+        top: 150px;
     }
     .nav-label{
         display: block;
         cursor: pointer;
     }
     .barraDeNavegacion{
-        position: absolute;
+        position: fixed;
         top: auto;
         bottom: auto;
         background-color: #E72B2B;
@@ -718,9 +726,6 @@ footer h4 {
     .himno1 .himno2{
         font-size: 20px;
     }
-    .maincamiseta{
-        overflow-x: none;
-    }
     .escudocamiseta{
         height: 90px;
         width: auto;
@@ -732,26 +737,28 @@ footer h4 {
         max-width: 290px;
     }
     .columnacamisetas img{
-        margin-bottom: 700px;
+        margin-bottom: 635px;
     }
 }
 @media (max-width:320px){
     header{
-        overflow-x: hidden;
-    }
-    main{
-        overflow-x: hidden;
+        height: 160px;
+        width: 100%;
     }
     .escudo{
         height: 70px;
         width: auto;
+    }
+    .nav-container{
+        position: absolute;
+        top: 120px;
     }
         .nav-label{
         display: block;
         cursor: pointer;
     }
     .barraDeNavegacion{
-        position: absolute;
+        position: fixed;
         top: auto;
         bottom: auto;
         background-color: #E72B2B;
@@ -808,9 +815,6 @@ footer h4 {
     .himno1 .himno2{
         font-size: 16px;
     }
-    .maincamiseta{
-        overflow-x: none;
-    }
     .escudocamiseta{
         height: 70px;
         width: auto;
@@ -821,7 +825,7 @@ footer h4 {
     .columnacamisetas img{
         width: 80px;
         height: auto;
-        margin-bottom: 850px;
+        margin-bottom: 750px;
     }
     .p1camisetas{
         top: 10px;
