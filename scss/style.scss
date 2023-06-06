@@ -1,0 +1,22 @@
+@import "./base/reset";
+body{
+    overflow-x: hidden;
+    h2{
+        font-size: 45px;
+        padding-left: 25px;
+    }
+}
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/main-camiseta";
+@import "./layout/main-estadio";
+@import "./layout/main-referentes";
+@import "./layout/main-sede";
+@import "./layout/footer";
+@import "./layout/media1240";
+@import "./layout/media1205";
+@import "./layout/media1024";
+@import "./layout/media768";
+@import "./layout/media425";
+@import "./layout/media375";
+@import "./layout/media320";

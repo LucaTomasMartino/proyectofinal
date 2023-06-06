@@ -1,0 +1,81 @@
+main{
+    font-family: 'Almendra SC', serif;
+    p{
+        text-indent: 65px;
+        font-size: 25px;
+        font-weight: lighter;
+        padding-left: 15px;
+        text-align: justify;
+    }
+    .p1estadio{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .mapaestadio{
+        position: relative;
+        width: 100%;
+        height: 0%;
+        padding-bottom: 40%;
+        text-align: center;
+        border: 3px solid #D20606;
+        background: linear-gradient(90deg, red, white); 
+        margin-bottom: 30px;
+    }
+    .mapaestadio iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #galeriaestadio{
+        margin-top: 50px;
+        height: 500px;
+        overflow: hidden;
+        margin-bottom: 50px;
+        border: 3px solid #D20606;
+        background: linear-gradient(90deg, red, white); 
+    }
+    .itemgaleria{
+        height: 100%;
+        position: relative;
+    }
+    .tarjetagaleria{
+        height: 100%;
+    }
+    .flechasgaleria{
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    #tarjetagaleria-1{
+        background-color: #D20606;
+    }
+    #tarjetagaleria-2{
+        background-color: #E72B2B;
+    }
+    #tarjetagaleria-3{
+        background-color: #D20606;
+    }
+    #tarjetagaleria-4{
+        background-color: #D20606;
+    }
+    a{
+        text-decoration: none;
+    }
+    i{
+        color: #ffffff;
+    }
+    #galeriaestadio img{
+        width: 100%;
+        height: 100%;
+    }
+    .p3estadio{
+        margin-bottom: 30px;
+    }
+}

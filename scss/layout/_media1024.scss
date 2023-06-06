@@ -1,0 +1,64 @@
+@media (max-width: 1024px){
+    header{
+        overflow-x: hidden;
+    }
+    header .escudo{
+        left: 35px;
+        height: 190px;
+        width: auto;
+    }
+    header h1{
+        left:250px ;
+    }
+    header h5{
+        left: 85px;
+    }
+    main{
+        overflow-x: hidden;
+    }
+    main .fundacion{
+        height: 280px;
+        width: auto;
+        left: 15px;
+        top: 90px;
+    }
+    main .fundaciontitulo{
+        bottom: 260px;
+        left:505px ;
+    }
+    main .p1fundacion{
+        left: 430px;
+        max-width: 590px;
+    }
+    main .pescudo{
+        max-width: 1020px;
+    }
+    main .hescudos{
+        left: 300px;
+        bottom: -130px;
+    }
+    main .himnostitulo{
+        bottom: 180px;
+    }
+    main .p1himnos{
+        bottom: 130px;
+    }
+    main .himno1{
+        bottom: 100px;
+    }
+    main .p2himnos{
+        bottom: 70px;
+    }
+    main .himno2{
+        bottom: 50px;
+    }
+    header .h5camiseta{
+        bottom: 85px;
+    }
+    main .p1camisetas{
+        max-width:750px ;
+    }
+    main .columnacamisetas img{
+        margin-bottom: 70px;
+    }
+}

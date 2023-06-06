@@ -1,0 +1,20 @@
+main{
+    .p1camisetas{
+        max-width:980px;
+        position: relative;
+        bottom:-45px ;
+        left: 270px;
+    }
+    .columnacamisetas{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: auto;
+        position: absolute;
+        top: 450px;
+    }
+    .columnacamisetas img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

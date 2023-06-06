@@ -1,835 +1,855 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-/**font-family: 'Almendra SC', serif;**/
-body{
-    overflow-x: hidden;
+
+body {
+  overflow-x: hidden;
 }
+body h2 {
+  font-size: 45px;
+  padding-left: 25px;
+}
+
 header {
-    font-family: 'Almendra SC', serif; 
-    background-color: #E72B2B;
+  font-family: "Almendra SC", serif;
+  background-color: #E72B2B;
 }
-    a {
-    text-decoration:none ;
-} 
-.escudo {
-    position: relative;
-    left: 50px; top: 20px;
+header .escudo {
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
-h1{
-    color: #ffffff; 
-    position: relative;
-    left: 350px; bottom: 70px;
-    letter-spacing: 3px;
-    font-size: 75px;
+header h1 {
+  color: #ffffff;
+  position: relative;
+  left: 350px;
+  bottom: 70px;
+  letter-spacing: 3px;
+  font-size: 75px;
 }
-h2{
-    font-size: 45px;
-    padding-left: 25px;
+header h5 {
+  color: #ffffff;
+  font-size: 50px;
+  position: relative;
+  left: 100px;
+  bottom: 93px;
 }
-h5 {    
-    color: #ffffff;
-    font-size: 50px;
-    position:relative ;
-    left: 100px; 
-    bottom: 93px;
-}     
-.barraDeNavegacion{
-    border-top: 3px solid #ffffff;
-    width: 100%;
-    background-color: #D20606; 
-    font-family: 'Almendra SC', serif;
-    ul: color: #ffffff;
+header .barraDeNavegacion {
+  border-top: 3px solid #ffffff;
+  width: 100%;
+  background-color: #D20606;
+  font-family: "Almendra SC", serif;
 }
-#menu a:hover{
-    color:     #D20606; 
-    background: #ffffff;
-    animation: 1s ms 1;
+header #menu a:hover {
+  color: #D20606;
+  background: #ffffff;
+  animation: 1s ms 1;
 }
-.nav-label , .nav-input{
-    display: none;
+header .nav-label, header .nav-input {
+  display: none;
 }
 @keyframes ms {
-    0%{
-            opacity: 0;
-            transform: scale(1.2);
-    }
+  0% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
 }
-    ul{
-            margin: 0px;
-            padding: 0px; 
-            overflow: hidden;
-            display: flex;
-            justify-content: center;
+header ul {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
 }
-    li{
-        float: left;
+header li {
+  float: left;
 }
-    li a{
-            display: block;
-            color: #ffffff;
-            text-align: center;
-            padding: 26px 50px;
+header li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 26px 50px;
+  text-decoration: none;
 }
-main{
-    font-family: 'Almendra SC', serif;
+
+main {
+  font-family: "Almendra SC", serif;
 }
-p{
-    text-indent: 65px;
-    font-size: 25px;
-    font-weight: lighter;
-    padding-left: 15px;
-    text-align: justify;
+main p {
+  text-indent: 65px;
+  font-size: 25px;
+  font-weight: lighter;
+  padding-left: 15px;
+  text-align: justify;
 }
-.fundacion{
-    position: relative;
-    left: 25px;
-    top: 60px;
-    height: 300px;
-    width: auto;
+main .fundacion {
+  position: relative;
+  left: 25px;
+  top: 60px;
+  height: 300px;
+  width: auto;
 }
-.fundaciontitulo {
-    position: relative;
-    left: 550px;
-    bottom: 275px;
+main .fundaciontitulo {
+  position: relative;
+  left: 550px;
+  bottom: 275px;
 }
-.p1fundacion {
-    max-width:780px;
-    position: relative;
-    bottom:250px ;
-    left: 470px;
+main .p1fundacion {
+  max-width: 780px;
+  position: relative;
+  bottom: 250px;
+  left: 470px;
 }
-.p2fundacion{
-    position: relative;
-    bottom: 215px;
+main .p2fundacion {
+  position: relative;
+  bottom: 215px;
 }
-.p3fundacion{
-    position: relative;
-    bottom: 200px;
+main .p3fundacion {
+  position: relative;
+  bottom: 200px;
 }
-.colorestitulo{
-    position: relative;
-    bottom: 160px;
+main .colorestitulo {
+  position: relative;
+  bottom: 160px;
 }
-.pcolores{
-    position: relative;
-    bottom: 150px;
+main .pcolores {
+  position: relative;
+  bottom: 150px;
 }
-.hescudos{
-    position: relative;
-    left: 650px;
-    bottom:100px ;
+main .hescudos {
+  position: relative;
+  left: 650px;
+  bottom: 100px;
 }
-.escudotitulo {
-    position: relative;
-    bottom: 470px;
+main .escudotitulo {
+  position: relative;
+  bottom: 470px;
 }
-.pescudo{
-    position: relative;
-    bottom: 440px;
-    max-width: 700px;
+main .pescudo {
+  position: relative;
+  bottom: 440px;
+  max-width: 700px;
 }
-.himnostitulo{
-    position: relative;
-    bottom:320px ;
+main .himnostitulo {
+  position: relative;
+  bottom: 320px;
 }
-.p1himnos{
-    position: relative;
-    bottom: 290px; 
+main .p1himnos {
+  position: relative;
+  bottom: 290px;
 }
-.himno1{
-    position: relative;
-    text-indent: 0%;
-    text-align: center;
-    font-size: 35px;
-    color: #D20606;
-    bottom: 260px;
+main .himno1 {
+  position: relative;
+  text-indent: 0%;
+  text-align: center;
+  font-size: 35px;
+  color: #D20606;
+  bottom: 260px;
 }
-.p2himnos{
-    position: relative;
-    bottom: 200px;
+main .p2himnos {
+  position: relative;
+  bottom: 200px;
 }
-.himno2{
-    position: relative;
-    text-indent: 0%;
-    text-align: center;
-    font-size: 35px;
-    color: #D20606;
-    bottom: 160px;
+main .himno2 {
+  position: relative;
+  text-indent: 0%;
+  text-align: center;
+  font-size: 35px;
+  color: #D20606;
+  bottom: 160px;
 }
-.p1camisetas{
-    max-width:980px;
-    position: relative;
-    bottom:-45px ;
-    left: 270px;
+
+main .p1camisetas {
+  max-width: 980px;
+  position: relative;
+  bottom: -45px;
+  left: 270px;
 }
-.columnacamisetas{
-    display: flex;
-    flex-direction: column;
-    width: 250px;
-    height: auto;
-    position: absolute;
-    top: 450px;
+main .columnacamisetas {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: auto;
+  position: absolute;
+  top: 450px;
 }
-.columnacamisetas img{
-    width: 100%;
-    margin-bottom: 10px;
+main .columnacamisetas img {
+  width: 100%;
+  margin-bottom: 10px;
 }
-.footercamisetas{
-    top: 100px;
+
+main {
+  font-family: "Almendra SC", serif;
 }
-.p1estadio{
-    margin-top: 30px;
-    margin-bottom: 30px;
+main p {
+  text-indent: 65px;
+  font-size: 25px;
+  font-weight: lighter;
+  padding-left: 15px;
+  text-align: justify;
 }
-.mapaestadio{
-    position: relative;
-    width: 100%;
-    height: 0%;
-    padding-bottom: 40%;
-    text-align: center;
-    border: 3px solid #D20606;
-    background: linear-gradient(90deg, red, white); 
-    margin-bottom: 30px;
+main .p1estadio {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-.mapaestadio iframe{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+main .mapaestadio {
+  position: relative;
+  width: 100%;
+  height: 0%;
+  padding-bottom: 40%;
+  text-align: center;
+  border: 3px solid #D20606;
+  background: linear-gradient(90deg, red, white);
+  margin-bottom: 30px;
 }
-#galeriaestadio{
-    margin-top: 50px;
-    height: 500px;
-    overflow: hidden;
-    margin-bottom: 50px;
-    border: 3px solid #D20606;
-    background: linear-gradient(90deg, red, white); 
+main .mapaestadio iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
-.itemgaleria{
-    height: 100%;
-    position: relative;
+main #galeriaestadio {
+  margin-top: 50px;
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  border: 3px solid #D20606;
+  background: linear-gradient(90deg, red, white);
 }
-.tarjetagaleria{
-    height: 100%;
+main .itemgaleria {
+  height: 100%;
+  position: relative;
 }
-.flechasgaleria{
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+main .tarjetagaleria {
+  height: 100%;
 }
-#tarjetagaleria-1{
-    background-color: #D20606;
+main .flechasgaleria {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 }
-#tarjetagaleria-2{
-    background-color: #E72B2B;
+main #tarjetagaleria-1 {
+  background-color: #D20606;
 }
-#tarjetagaleria-3{
-    background-color: #D20606;
+main #tarjetagaleria-2 {
+  background-color: #E72B2B;
 }
-#tarjetagaleria-4{
-    background-color: #D20606;
+main #tarjetagaleria-3 {
+  background-color: #D20606;
 }
-a{
-    text-decoration: none;
+main #tarjetagaleria-4 {
+  background-color: #D20606;
 }
-i{
-    color: #ffffff;
+main a {
+  text-decoration: none;
 }
-#galeriaestadio img{
-    width: 100%;
-    height: 100%;
+main i {
+  color: #ffffff;
 }
-.p3estadio{
-    margin-bottom: 30px;
+main #galeriaestadio img {
+  width: 100%;
+  height: 100%;
 }
-.h2ref{
-    margin-top: 30px;
-    margin-bottom: 30px;
+main .p3estadio {
+  margin-bottom: 30px;
 }
-.grid1referentes{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    text-align: center;
-    padding: 30px;
-    border: 4px solid #E72B2B;
-    background-color: #D20606;
-    margin-top: 40px;
+
+main .h2ref {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-.item1{
-    width: 100%;
+main .grid1referentes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  text-align: center;
+  padding: 30px;
+  border: 4px solid #E72B2B;
+  background-color: #D20606;
+  margin-top: 40px;
 }
-.item1 img{
-    width: 50%;
-    height: auto;
+main .item1 {
+  width: 100%;
 }
-.grid2referentes{
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 10px;
-    text-align: center;
-    padding: 30px;
-    border: 4px solid #E72B2B;
-    background-color: #D20606;
-    margin-top: 40px;
+main .item1 img {
+  width: 50%;
+  height: auto;
 }
-.item2{
-    width: 100%; 
+main .grid2referentes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  text-align: center;
+  padding: 30px;
+  border: 4px solid #E72B2B;
+  background-color: #D20606;
+  margin-top: 40px;
 }
-.item2 img{
-    width: 50%; 
-    height: auto; 
+main .item2 {
+  width: 100%;
 }
-.grid3referentes{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    text-align: center;
-    padding: 30px;
-    border: 4px solid #E72B2B;
-    background-color: #D20606;
-    margin-top: 40px;
+main .item2 img {
+  width: 50%;
+  height: auto;
 }
-.item3{
-    width: 100%;
+main .grid3referentes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  text-align: center;
+  padding: 30px;
+  border: 4px solid #E72B2B;
+  background-color: #D20606;
+  margin-top: 40px;
 }
-.item3 img {
-    width: 50%; 
-    height: auto;
+main .item3 {
+  width: 100%;
 }
-.referentes4{
-    text-align: center;
-    padding: 30px;
-    border: 4px solid #E72B2B;
-    background-color: #D20606;
-    margin-top: 40px;
-    margin-bottom: 40px;
+main .item3 img {
+  width: 50%;
+  height: auto;
 }
-.item4{
-    width: 100%;
+main .referentes4 {
+  text-align: center;
+  padding: 30px;
+  border: 4px solid #E72B2B;
+  background-color: #D20606;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
-.item4 img{
-    width: 20%;
-    height: auto;
+main .item4 {
+  width: 100%;
 }
-#conteitemcarrusel{
-    margin-top: 50px;
-    height: 500px;
-    overflow: hidden;
-    margin-bottom: 50px;
+main .item4 img {
+  width: 20%;
+  height: auto;
 }
-.itemcarrusel{
-    height: 100%;
-    position: relative;
+
+main #conteitemcarrusel {
+  margin-top: 50px;
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 50px;
 }
-.tarjetacarrusel{
-    height: 100%;
+main .itemcarrusel {
+  height: 100%;
+  position: relative;
 }
-.flechascarrusel{
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+main .tarjetacarrusel {
+  height: 100%;
 }
-#tarjetacarrusel-1{
-    background-color: #D20606;
+main .flechascarrusel {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 }
-#tarjetacarrusel-2{
-    background-color: #E72B2B;
+main #tarjetacarrusel-1 {
+  background-color: #D20606;
 }
-#tarjetacarrusel-3{
-    background-color: #D20606;
+main #tarjetacarrusel-2 {
+  background-color: #E72B2B;
 }
-a{
-    text-decoration: none;
+main #tarjetacarrusel-3 {
+  background-color: #D20606;
 }
-i{
-    color: #ffffff;
+main a {
+  text-decoration: none;
 }
-#conteitemcarrusel img{
-    width: 100%;
-    height: 100%;
+main i {
+  color: #ffffff;
 }
-footer{
-    background-color: #E72B2B;
-    position: relative;
+main #conteitemcarrusel img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background-color: #E72B2B;
+  position: relative;
 }
 footer h4 {
-    text-align: center; 
-    font-family: 'Almendra SC', serif; 
-    color: #ffffff;
-} 
-@media (max-width:1240px){
-    .p1fundacion{
-        max-width: 750px;
-    }
-    .hescudos{
-        left: 620px;
-    }
+  text-align: center;
+  font-family: "Almendra SC", serif;
+  color: #ffffff;
 }
-@media (max-width:1205px){
-    .fundacion{
-        top: 100px;
-    }
-    .p1fundacion{
-        max-width: 590px;
-    }
-    .escudotitulo{
-        bottom: 405px;
-    }
-    .pescudo{
-        bottom:405px ;
-    }
-    .hescudos{
-        width: 505px;
-        left: 655px;
-    }
-}
-@media (max-width: 1024px){
-    header{
-        overflow-x: hidden;
-    }
-    main{
-        overflow-x: hidden;
-    }
-    .escudo{
-        left: 35px;
-        height: 190px;
-        width: auto;
-    }
-    h1{
-        left:250px ;
-    }
-    h5{
-        left: 85px;
-    }
-    .fundacion{
-        height: 280px;
-        width: auto;
-        left: 15px;
-        top: 90px;
-    }
-    .fundaciontitulo{
-        bottom: 260px;
-        left:505px ;
-    }
-    .p1fundacion{
-        left: 430px;
-        max-width: 590px;
-    }
-    .pescudo{
-        max-width: 1020px;
-    }
-    .hescudos{
-        left: 300px;
-        bottom: -130px;
-    }
-    .himnostitulo{
-        bottom: 180px;
-    }
-    .p1himnos{
-        bottom: 130px;
-    }
-    .himno1{
-        bottom: 100px;
-    }
-    .p2himnos{
-        bottom: 70px;
-    }
-    .himno2{
-        bottom: 50px;
-    }
-    .h5camiseta{
-        bottom: 85px;
-    }
-    .p1camisetas{
-        max-width:750px ;
-    }
-    .columnacamisetas img{
-        margin-bottom: 70px;
-    }
-}
-@media (max-width:768px){
-    header{
-        overflow-x: hidden;
-    }
-    main{
-        overflow-x: hidden;
-    }
-    .escudo{
-        height: 150px;
-        width: auto;
-        left: 25px;
-    }
-    h1{
-        font-size: 55px;
-        left: 185px;
-        bottom: 53px;
-    }
-    h2{
-        font-size: 40px;
-    }
-    h5{
-        font-size: 40px;
-        left: 62px;
-        bottom: 68px;
-    }
-    .fundacion{
-        height: 220px;
-        width: auto;
-        top: 150px;
-    }
-    .fundaciontitulo{
-        bottom: 180px;
-        left: 45px;
-    }
-    p{
-        font-size: 22px;
-    }
-    .p1fundacion{
-        max-width: 445px;
-        bottom: 200px;
-        left: 325px;
-    }
-    .p2fundacion{
-        bottom: 200px;
-    }
-    .escudotitulo{
-        bottom: 345px;
-    }
-    .pescudo{
-        bottom: 325px;
-    }
-    .hescudos{
-        width: 405px;
-        height: auto;
-        bottom: -140px;
-    }
-    .escudocamiseta{
-        height: 150px;
-        width: auto;
-        left: 25px;
-    }
-    .h5camiseta{
-        bottom: 60px;
-    }
-    .columnacamisetas img{
-        width: 200px;
-        height: auto;
-        margin-bottom: 170px;
-    }
-    .p1camisetas{
-        max-width:550px ;
-        left: 200px;
-    }
-    .escudo.ref{
-        height: 150px;
-        width: auto;
-        left: 25px;
-    }
-    }
-@media (max-width:425px){
-    header{
-        height: 230px;
-        width: 100%;
-    }
-    .escudo{
-        height: 115px;
-        width: auto;
-        left: 20px;
-    }
-    .nav-container{
-        position: absolute;
-        top: 190px;
-    }
-    .nav-label{
-        display: block;
-        cursor: pointer;
-    }
-    .barraDeNavegacion{
-        position: fixed;
-        top: auto;
-        bottom: auto;
-        background-color: #E72B2B;
-        width: 100%;
-        left: 0;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        align-items: center;
-        clip-path: circle(0 at center);
-        transition: clip-path 1s ease-in-out;
-        z-index: 1;
-    }
-    .nav-input:checked + .barraDeNavegacion{
-        clip-path: circle(100% at center);
-    }
-    h1{
-        font-size: 45px;
-        left: 153px;
-        bottom: 33px;
-    }
-    h2{
-        font-size: 33px;
-    }
-    h5{
-        font-size: 30px;
-        left: 49px;
-        bottom: 98px;
-    }
-    .fundacion{
-        top: 480px;
-        left: 50px;
-    }
-    .fundaciontitulo{
-        bottom: 210px;
-        left: 30px;
-    }
-    .p1fundacion{
-        left: 0px;
-    }
-    .p2fundacion{
-        bottom: -40px;
-    }
-    .p3fundacion{
-        bottom: -40px;
-    }
-    .colorestitulo{
-        bottom: -40px;
-    }
-    .pcolores{
-        bottom: -40px;
-    }
-    .escudotitulo{
-        bottom: 130px;
-    }
-    .pescudo{
-        bottom: 125px;
-    }
-    .hescudos{
-        width: 305px;
-        height: auto;
-        bottom: -420px;
-        left: 130px;
-    }
-    .himnostitulo{
-        bottom: 0px;
-    }
-    .p1himnos{
-        bottom: -10px;
-    }
-    .himno1{
-        font-size: 30px;
-        bottom: -20px;
-    }
-    .p2himnos{
-        bottom: -20px;
-    }
-    .himno2{
-        font-size: 30px;
-        bottom: -20px;
-    }
 
-    .escudocamiseta{
-        height: 115px;
-        width: auto;
-        left: 20px;
-    }
-    .h5camiseta{
-        bottom: 95px;
-    }
-    .p1camisetas{
-        left: 85px;
-        max-width: 340px;
-    }
-    .columnacamisetas{
-        top: 850px;
-    }
-    .columnacamisetas img{
-        width: 100px;
-        height: auto;
-        margin-bottom: 430px;
-    }
+.footercamisetas {
+  top: 100px;
 }
-@media (max-width:375px){
-    header{
-        height: 190px;
-        width: 100%;
-    }
-    .escudo{
-        height: 90px;
-        width: auto;
-    }
-    .nav-container{
-        position: absolute;
-        top: 150px;
-    }
-    .nav-label{
-        display: block;
-        cursor: pointer;
-    }
-    .barraDeNavegacion{
-        position: fixed;
-        top: auto;
-        bottom: auto;
-        background-color: #E72B2B;
-        width: 100%;
-        left: 0;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        align-items: center;
-        clip-path: circle(0 at center);
-        transition: clip-path 1s ease-in-out;
-        z-index: 1;
-    }
-    .nav-input:checked + .barraDeNavegacion{
-        clip-path: circle(100% at center);
-    }
-    h1{
-        font-size: 40px;
-        left: 133px;
-        bottom: 20px;
-    }
-    h2{
-        font-size: 30px;
-    }
-    h4{
-        font-size: 14px;
-    }
-    h5{
-        font-size: 28px;
-        left: 39px;
-        bottom: 88px;
-    }
-    .fundacion{
-        top: 530px;
-        left: 27px;
-    }
-    .hescudos{
-        bottom: -460px;
-        left: 90px;
-    }
-    .himno1 .himno2{
-        font-size: 20px;
-    }
-    .escudocamiseta{
-        height: 90px;
-        width: auto;
-    }
-    .h5camiseta{
-        bottom: 84px;
-    }
-    .p1camisetas{
-        max-width: 290px;
-    }
-    .columnacamisetas img{
-        margin-bottom: 635px;
-    }
+
+@media (max-width: 1240px) {
+  main .p1fundacion {
+    max-width: 700px;
+  }
+  main .hescudos {
+    left: 625px;
+  }
 }
-@media (max-width:320px){
-    header{
-        height: 160px;
-        width: 100%;
-    }
-    .escudo{
-        height: 70px;
-        width: auto;
-    }
-    .nav-container{
-        position: absolute;
-        top: 120px;
-    }
-        .nav-label{
-        display: block;
-        cursor: pointer;
-    }
-    .barraDeNavegacion{
-        position: fixed;
-        top: auto;
-        bottom: auto;
-        background-color: #E72B2B;
-        width: 100%;
-        left: 0;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        align-items: center;
-        clip-path: circle(0 at center);
-        transition: clip-path 1s ease-in-out;
-        z-index: 1;
-    }
-    .nav-input:checked + .barraDeNavegacion{
-        clip-path: circle(100% at center);
-    }
-    h1{
-        font-size: 32px;
-        left: 113px;
-        bottom: 10px;
-    }
-    h2{
-        font-size: 27px;
-    }
-    h4{
-        font-size: 12px;
-    }
-    h5{
-        font-size: 21px;
-        bottom: 68px;
-        left: 35px;
-    }
-    .fundacion{
-        height: 200px;
-        width: auto;
-        top: 630px;
-        left: 20px;
-    }
-    .fundaciontitulo{
-        bottom: 200px;
-    }
-    .escudotitulo{
-        bottom:80px ;
-    }
-    .pescudo{
-        bottom: 80px;
-    }
-    .hescudos{
-        height: 120px;
-        width: auto;
-        bottom: -560px;
-        left: 115px;
-    }
-    .himno1 .himno2{
-        font-size: 16px;
-    }
-    .escudocamiseta{
-        height: 70px;
-        width: auto;
-    }
-    .h5camiseta{
-        bottom: 65px;
-    }
-    .columnacamisetas img{
-        width: 80px;
-        height: auto;
-        margin-bottom: 750px;
-    }
-    .p1camisetas{
-        top: 10px;
-        left: 70px;
-        max-width: 250px;
-    }
+@media (max-width: 1205px) {
+  main .fundacion {
+    top: 100px;
+  }
+  main .p1fundacion {
+    max-width: 590px;
+  }
+  main .escudotitulo {
+    bottom: 405px;
+  }
+  main .pescudo {
+    bottom: 405px;
+  }
+  main .hescudos {
+    width: 505px;
+    left: 655px;
+  }
 }
+@media (max-width: 1024px) {
+  header {
+    overflow-x: hidden;
+  }
+  header .escudo {
+    left: 35px;
+    height: 190px;
+    width: auto;
+  }
+  header h1 {
+    left: 250px;
+  }
+  header h5 {
+    left: 85px;
+  }
+  main {
+    overflow-x: hidden;
+  }
+  main .fundacion {
+    height: 280px;
+    width: auto;
+    left: 15px;
+    top: 90px;
+  }
+  main .fundaciontitulo {
+    bottom: 260px;
+    left: 505px;
+  }
+  main .p1fundacion {
+    left: 430px;
+    max-width: 590px;
+  }
+  main .pescudo {
+    max-width: 1020px;
+  }
+  main .hescudos {
+    left: 300px;
+    bottom: -130px;
+  }
+  main .himnostitulo {
+    bottom: 180px;
+  }
+  main .p1himnos {
+    bottom: 130px;
+  }
+  main .himno1 {
+    bottom: 100px;
+  }
+  main .p2himnos {
+    bottom: 70px;
+  }
+  main .himno2 {
+    bottom: 50px;
+  }
+  header .h5camiseta {
+    bottom: 85px;
+  }
+  main .p1camisetas {
+    max-width: 750px;
+  }
+  main .columnacamisetas img {
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    overflow-x: hidden;
+  }
+  header .escudo {
+    height: 150px;
+    width: auto;
+    left: 25px;
+  }
+  header h1 {
+    font-size: 55px;
+    left: 185px;
+    bottom: 53px;
+  }
+  header h5 {
+    font-size: 40px;
+    left: 62px;
+    bottom: 68px;
+  }
+  main {
+    overflow-x: hidden;
+  }
+  main h2 {
+    font-size: 40px;
+  }
+  main .fundacion {
+    height: 215px;
+    width: auto;
+    top: 150px;
+  }
+  main .fundaciontitulo {
+    bottom: 180px;
+    left: 45px;
+  }
+  main p {
+    font-size: 22px;
+  }
+  main .p1fundacion {
+    max-width: 445px;
+    bottom: 200px;
+    left: 320px;
+  }
+  main .p2fundacion {
+    bottom: 200px;
+  }
+  main .escudotitulo {
+    bottom: 345px;
+  }
+  main .pescudo {
+    bottom: 325px;
+  }
+  main .hescudos {
+    width: 405px;
+    height: auto;
+    bottom: -140px;
+  }
+  header .escudocamiseta {
+    height: 150px;
+    width: auto;
+    left: 25px;
+  }
+  header .h5camiseta {
+    bottom: 60px;
+  }
+  main .columnacamisetas img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 170px;
+  }
+  main .p1camisetas {
+    max-width: 550px;
+    left: 200px;
+  }
+  header .escudo.ref {
+    height: 150px;
+    width: auto;
+    left: 25px;
+  }
+}
+@media (max-width: 425px) {
+  header {
+    height: 230px;
+    width: 100%;
+  }
+  header .escudo {
+    height: 115px;
+    width: auto;
+    left: 20px;
+  }
+  header .nav-container {
+    position: absolute;
+    top: 190px;
+  }
+  header .nav-label {
+    display: block;
+    cursor: pointer;
+  }
+  header .barraDeNavegacion {
+    position: fixed;
+    top: auto;
+    bottom: auto;
+    background-color: #E72B2B;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    clip-path: circle(0 at center);
+    transition: clip-path 1s ease-in-out;
+    z-index: 1;
+  }
+  header .nav-input:checked + .barraDeNavegacion {
+    clip-path: circle(100% at center);
+  }
+  header h1 {
+    font-size: 45px;
+    left: 153px;
+    bottom: 33px;
+  }
+  header h5 {
+    font-size: 30px;
+    left: 49px;
+    bottom: 98px;
+  }
+  main h2 {
+    font-size: 33px;
+  }
+  main .fundacion {
+    top: 480px;
+    left: 50px;
+  }
+  main .fundaciontitulo {
+    bottom: 210px;
+    left: 30px;
+  }
+  main .p1fundacion {
+    left: 0px;
+  }
+  main .p2fundacion {
+    bottom: -40px;
+  }
+  main .p3fundacion {
+    bottom: -40px;
+  }
+  main .colorestitulo {
+    bottom: -40px;
+  }
+  main .pcolores {
+    bottom: -40px;
+  }
+  main .escudotitulo {
+    bottom: 130px;
+  }
+  main .pescudo {
+    bottom: 125px;
+  }
+  main .hescudos {
+    width: 305px;
+    height: auto;
+    bottom: -420px;
+    left: 130px;
+  }
+  main .himnostitulo {
+    bottom: 0px;
+  }
+  main .p1himnos {
+    bottom: -10px;
+  }
+  main .himno1 {
+    font-size: 30px;
+    bottom: -20px;
+  }
+  main .p2himnos {
+    bottom: -20px;
+  }
+  main .himno2 {
+    font-size: 30px;
+    bottom: -20px;
+  }
+  header .escudocamiseta {
+    height: 115px;
+    width: auto;
+    left: 20px;
+  }
+  header .h5camiseta {
+    bottom: 95px;
+  }
+  main .p1camisetas {
+    left: 85px;
+    max-width: 340px;
+  }
+  main .columnacamisetas {
+    top: 850px;
+  }
+  main .columnacamisetas img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 430px;
+  }
+}
+@media (max-width: 375px) {
+  header {
+    height: 190px;
+    width: 100%;
+  }
+  header .escudo {
+    height: 90px;
+    width: auto;
+  }
+  header .nav-container {
+    position: absolute;
+    top: 150px;
+  }
+  header .nav-label {
+    display: block;
+    cursor: pointer;
+  }
+  header .barraDeNavegacion {
+    position: fixed;
+    top: auto;
+    bottom: auto;
+    background-color: #E72B2B;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    clip-path: circle(0 at center);
+    transition: clip-path 1s ease-in-out;
+    z-index: 1;
+  }
+  header .nav-input:checked + .barraDeNavegacion {
+    clip-path: circle(100% at center);
+  }
+  header h1 {
+    font-size: 40px;
+    left: 133px;
+    bottom: 20px;
+  }
+  header h5 {
+    font-size: 28px;
+    left: 39px;
+    bottom: 88px;
+  }
+  main h2 {
+    font-size: 30px;
+  }
+  main .fundacion {
+    top: 530px;
+    left: 27px;
+  }
+  main .hescudos {
+    bottom: -460px;
+    left: 90px;
+  }
+  main .himno1 .himno2 {
+    font-size: 20px;
+  }
+  header .escudocamiseta {
+    height: 90px;
+    width: auto;
+  }
+  header .h5camiseta {
+    bottom: 84px;
+  }
+  main .p1camisetas {
+    max-width: 290px;
+  }
+  main .columnacamisetas img {
+    margin-bottom: 635px;
+  }
+  footer h4 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 320px) {
+  header {
+    height: 160px;
+    width: 100%;
+  }
+  header .escudo {
+    height: 70px;
+    width: auto;
+  }
+  header .nav-container {
+    position: absolute;
+    top: 120px;
+  }
+  header .nav-label {
+    display: block;
+    cursor: pointer;
+  }
+  header .barraDeNavegacion {
+    position: fixed;
+    top: auto;
+    bottom: auto;
+    background-color: #E72B2B;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    clip-path: circle(0 at center);
+    transition: clip-path 1s ease-in-out;
+    z-index: 1;
+  }
+  header .nav-input:checked + .barraDeNavegacion {
+    clip-path: circle(100% at center);
+  }
+  header h1 {
+    font-size: 32px;
+    left: 113px;
+    bottom: 10px;
+  }
+  main h2 {
+    font-size: 27px;
+  }
+  header h5 {
+    font-size: 21px;
+    bottom: 68px;
+    left: 35px;
+  }
+  main .fundacion {
+    height: 200px;
+    width: auto;
+    top: 630px;
+    left: 20px;
+  }
+  main .fundaciontitulo {
+    bottom: 200px;
+  }
+  main .escudotitulo {
+    bottom: 80px;
+  }
+  main .pescudo {
+    bottom: 80px;
+  }
+  main .hescudos {
+    height: 120px;
+    width: auto;
+    bottom: -560px;
+    left: 115px;
+  }
+  main .himno1 .himno2 {
+    font-size: 16px;
+  }
+  header .escudocamiseta {
+    height: 70px;
+    width: auto;
+  }
+  header .h5camiseta {
+    bottom: 65px;
+  }
+  main .columnacamisetas img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 750px;
+  }
+  main .p1camisetas {
+    top: 10px;
+    left: 70px;
+    max-width: 250px;
+  }
+  footer h4 {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

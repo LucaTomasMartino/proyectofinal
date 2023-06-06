@@ -1,0 +1,93 @@
+@media (max-width:320px){
+    header{
+        height: 160px;
+        width: 100%;
+    }
+    header .escudo{
+        height: 70px;
+        width: auto;
+    }
+    header .nav-container{
+        position: absolute;
+        top: 120px;
+    }
+        header .nav-label{
+        display: block;
+        cursor: pointer;
+    }
+    header .barraDeNavegacion{
+        position: fixed;
+        top: auto;
+        bottom: auto;
+        background-color: #E72B2B;
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        clip-path: circle(0 at center);
+        transition: clip-path 1s ease-in-out;
+        z-index: 1;
+    }
+    header .nav-input:checked + .barraDeNavegacion{
+        clip-path: circle(100% at center);
+    }
+    header h1{
+        font-size: 32px;
+        left: 113px;
+        bottom: 10px;
+    }
+    main h2{
+        font-size: 27px;
+    }
+    header h5{
+        font-size: 21px;
+        bottom: 68px;
+        left: 35px;
+    }
+    main .fundacion{
+        height: 200px;
+        width: auto;
+        top: 630px;
+        left: 20px;
+    }
+    main .fundaciontitulo{
+        bottom: 200px;
+    }
+    main .escudotitulo{
+        bottom:80px ;
+    }
+    main .pescudo{
+        bottom: 80px;
+    }
+    main .hescudos{
+        height: 120px;
+        width: auto;
+        bottom: -560px;
+        left: 115px;
+    }
+    main .himno1 .himno2{
+        font-size: 16px;
+    }
+    header .escudocamiseta{
+        height: 70px;
+        width: auto;
+    }
+    header .h5camiseta{
+        bottom: 65px;
+    }
+    main .columnacamisetas img{
+        width: 80px;
+        height: auto;
+        margin-bottom: 750px;
+    }
+    main .p1camisetas{
+        top: 10px;
+        left: 70px;
+        max-width: 250px;
+    }
+    footer h4{
+        font-size: 12px;
+    }
+}
