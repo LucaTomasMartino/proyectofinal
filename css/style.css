@@ -11,6 +11,9 @@ body h2 {
   font-size: 45px;
   padding-left: 25px;
 }
+body strong {
+  color: #E72B2B;
+}
 
 header {
   font-family: "Almendra SC", serif;

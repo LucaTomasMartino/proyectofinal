@@ -5,6 +5,9 @@ body{
         font-size: 45px;
         padding-left: 25px;
     }
+    strong{
+        color: #E72B2B;
+    }
 }
 @import "./layout/header";
 @import "./layout/main-index";
