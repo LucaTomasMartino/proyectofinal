@@ -44,6 +44,11 @@
         left: 49px;
         bottom: 98px;
     }
+    main{
+        position: relative; 
+        padding-bottom: 50px;
+        overflow-y: hidden;
+    }
     main h2{
         font-size: 33px;
     }

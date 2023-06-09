@@ -54,6 +54,23 @@ main{
         width: 50%; 
         height: auto;
     }
+    .grid5referentes{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        text-align: center;
+        padding: 30px;
+        border: 4px solid #E72B2B;
+        background-color: #D20606;
+        margin-top: 40px;
+    }
+    .item5{
+        width: 100%;
+    }
+    .item5 img{
+        width: 50%; 
+        height: auto;
+    }
     .referentes4{
         text-align: center;
         padding: 30px;

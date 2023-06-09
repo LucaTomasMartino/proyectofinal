@@ -15,6 +15,7 @@ body h2 {
 header {
   font-family: "Almendra SC", serif;
   background-color: #E72B2B;
+  overflow: hidden;
 }
 header .escudo {
   position: relative;
@@ -318,6 +319,23 @@ main .item3 img {
   width: 50%;
   height: auto;
 }
+main .grid5referentes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  text-align: center;
+  padding: 30px;
+  border: 4px solid #E72B2B;
+  background-color: #D20606;
+  margin-top: 40px;
+}
+main .item5 {
+  width: 100%;
+}
+main .item5 img {
+  width: 50%;
+  height: auto;
+}
 main .referentes4 {
   text-align: center;
   padding: 30px;
@@ -606,6 +624,11 @@ footer h4 {
     left: 49px;
     bottom: 98px;
   }
+  main {
+    position: relative;
+    padding-bottom: 50px;
+    overflow-y: hidden;
+  }
   main h2 {
     font-size: 33px;
   }
@@ -680,6 +703,28 @@ footer h4 {
     width: 100px;
     height: auto;
     margin-bottom: 430px;
+  }
+}
+@media (max-width: 414px) {
+  main .fundacion {
+    top: 500px;
+  }
+}
+@media (max-width: 409px) {
+  main .fundacion {
+    top: 510px;
+  }
+  main .hescudos {
+    bottom: -445px;
+    left: 108px;
+  }
+}
+@media (max-width: 387px) {
+  main .fundacion {
+    top: 542px;
+  }
+  main .hescudos {
+    bottom: -495px;
   }
 }
 @media (max-width: 375px) {
