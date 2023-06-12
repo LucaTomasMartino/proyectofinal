@@ -23,19 +23,19 @@ main{
         padding: 20px;
     }
     #tarjetacarrusel-1{
-        background-color: #D20606;
+        background-color: $color-secundario;
     }
     #tarjetacarrusel-2{
-        background-color: #E72B2B;
+        background-color: $color-principal;
     }
     #tarjetacarrusel-3{
-        background-color: #D20606;
+        background-color: $color-secundario;
     }
     a{
         text-decoration: none;
     }
     i{
-        color: #ffffff;
+        color: $color-terciario;
     }
     #conteitemcarrusel img{
         width: 100%;

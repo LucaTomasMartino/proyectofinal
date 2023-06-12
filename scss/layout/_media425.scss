@@ -20,9 +20,9 @@
         position: fixed;
         top: auto;
         bottom: auto;
-        background-color: #E72B2B;
+        background-color: $color-principal;
         width: 100%;
-        left: 0;
+        left: auto;
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;

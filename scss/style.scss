@@ -1,3 +1,6 @@
+$color-principal:#E72B2B;
+$color-secundario: #D20606 ;
+$color-terciario: #ffffff;
 @import "./base/reset";
 body{
     overflow-x: hidden;
@@ -6,7 +9,7 @@ body{
         padding-left: 25px;
     }
     strong{
-        color: #E72B2B;
+        color: $color-principal;
     }
 }
 @import "./layout/header";

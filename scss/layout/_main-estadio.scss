@@ -17,7 +17,7 @@ main{
         height: 0%;
         padding-bottom: 40%;
         text-align: center;
-        border: 3px solid #D20606;
+        border: 3px solid $color-secundario;
         background: linear-gradient(90deg, red, white); 
         margin-bottom: 30px;
     }
@@ -33,7 +33,7 @@ main{
         height: 500px;
         overflow: hidden;
         margin-bottom: 50px;
-        border: 3px solid #D20606;
+        border: 3px solid $color-secundario;
         background: linear-gradient(90deg, red, white); 
     }
     .itemgaleria{
@@ -54,22 +54,22 @@ main{
         padding: 20px;
     }
     #tarjetagaleria-1{
-        background-color: #D20606;
+        background-color: $color-secundario;
     }
     #tarjetagaleria-2{
-        background-color: #E72B2B;
+        background-color:$color-secundario;
     }
     #tarjetagaleria-3{
-        background-color: #D20606;
+        background-color: $color-secundario;
     }
     #tarjetagaleria-4{
-        background-color: #D20606;
+        background-color: $color-secundario;
     }
     a{
         text-decoration: none;
     }
     i{
-        color: #ffffff;
+        color:$color-terciario;
     }
     #galeriaestadio img{
         width: 100%;

@@ -245,7 +245,7 @@ main #tarjetagaleria-1 {
   background-color: #D20606;
 }
 main #tarjetagaleria-2 {
-  background-color: #E72B2B;
+  background-color: #D20606;
 }
 main #tarjetagaleria-3 {
   background-color: #D20606;
@@ -399,7 +399,7 @@ main #conteitemcarrusel img {
 }
 
 footer {
-  background-color: #E72B2B;
+  background-color: #D20606;
   position: relative;
 }
 footer h4 {
@@ -605,7 +605,7 @@ footer h4 {
     bottom: auto;
     background-color: #E72B2B;
     width: 100%;
-    left: 0;
+    left: auto;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
