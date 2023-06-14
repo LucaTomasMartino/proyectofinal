@@ -1,6 +1,4 @@
-$color-principal:#E72B2B;
-$color-secundario: #D20606 ;
-$color-terciario: #ffffff;
+@import "./utilities/variables";
 @import "./base/reset";
 body{
     overflow-x: hidden;

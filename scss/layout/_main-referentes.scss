@@ -21,14 +21,7 @@ main{
         height: auto;
     }
     .grid2referentes{
-        display: grid;
-        grid-template-columns: 1fr 1fr; 
-        gap: 10px;
-        text-align: center;
-        padding: 30px;
-        border: 4px solid $color-principal;
-        background-color: $color-secundario;
-        margin-top: 40px;
+        @extend .grid1referentes
     }
     .item2{
         width: 100%; 
@@ -38,14 +31,7 @@ main{
         height: auto; 
     }
     .grid3referentes{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-        text-align: center;
-        padding: 30px;
-        border: 4px solid $color-principal;
-        background-color: $color-secundario;
-        margin-top: 40px;
+        @extend .grid1referentes
     }
     .item3{
         width: 100%;
@@ -55,14 +41,7 @@ main{
         height: auto;
     }
     .grid5referentes{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-        text-align: center;
-        padding: 30px;
-        border: 4px solid $color-principal;
-        background-color: $color-secundario;
-        margin-top: 40px;
+        @extend .grid1referentes
     }
     .item5{
         width: 100%;
