@@ -81,6 +81,7 @@ header li a {
 
 main {
   font-family: "Almendra SC", serif;
+  overflow-x: hidden;
 }
 main p {
   text-indent: 65px;
@@ -348,6 +349,9 @@ main .item4 img {
   height: auto;
 }
 
+main .p1sede {
+  margin-top: 50px;
+}
 main #conteitemcarrusel {
   margin-top: 50px;
   height: 500px;
