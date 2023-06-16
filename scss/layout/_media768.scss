@@ -18,7 +18,7 @@
         bottom: 68px;
     }
     main{
-        overflow-x: hidden;
+        overflow-y: hidden;
     }
     main h2{
         font-size: 40px;
@@ -65,10 +65,11 @@
     main .columnacamisetas img{
         width: 200px;
         height: auto;
-        margin-bottom: 170px;
+        margin-bottom: 140px;
     }
     main .p1camisetas{
         max-width:550px ;
+        top: 5px;
         left: 200px;
     }
     header .escudo.ref{

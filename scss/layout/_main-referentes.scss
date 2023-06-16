@@ -19,6 +19,8 @@ main{
     .item1 img{
         width: 50%;
         height: auto;
+        transition: 0.5s;
+        object-fit: cover;
     }
     .grid2referentes{
         @extend .grid1referentes
@@ -60,6 +62,9 @@ main{
     }
     .item4{
         width: 100%;
+    }
+    img:hover {
+        transform: scale(1.2);
     }
     .item4 img{
         width: 20%;

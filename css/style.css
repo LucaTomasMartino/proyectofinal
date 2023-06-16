@@ -166,25 +166,27 @@ main .himno2 {
   bottom: 160px;
 }
 
+main {
+  overflow-y: hidden;
+}
 main .p1camisetas {
   max-width: 980px;
   position: relative;
-  bottom: -45px;
+  top: 6px;
   left: 270px;
 }
 main .columnacamisetas {
   display: flex;
   flex-direction: column;
-  width: 250px;
+  width: 230px;
   height: auto;
   position: absolute;
   top: 450px;
 }
 main .columnacamisetas img {
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
-
 main {
   font-family: "Almendra SC", serif;
 }
@@ -303,6 +305,8 @@ main .item1 {
 main .item1 img {
   width: 50%;
   height: auto;
+  transition: 0.5s;
+  object-fit: cover;
 }
 main .item2 {
   width: 100%;
@@ -336,6 +340,9 @@ main .referentes4 {
 main .item4 {
   width: 100%;
 }
+main img:hover {
+  transform: scale(1.2);
+}
 main .item4 img {
   width: 20%;
   height: auto;
@@ -346,6 +353,7 @@ main #conteitemcarrusel {
   height: 500px;
   overflow: hidden;
   margin-bottom: 50px;
+  border: 5px solid red;
 }
 main .itemcarrusel {
   height: 100%;
@@ -488,6 +496,27 @@ footer h4 {
     margin-bottom: 70px;
   }
 }
+@media (max-width: 1017px) {
+  main .p1fundacion {
+    max-width: 490px;
+  }
+}
+@media (max-width: 917px) {
+  main .fundacion {
+    top: 150px;
+  }
+  main .p1fundacion {
+    max-width: 390px;
+  }
+}
+@media (max-width: 817px) {
+  main .fundacion {
+    top: 250px;
+  }
+  main .p1fundacion {
+    max-width: 340px;
+  }
+}
 @media (max-width: 768px) {
   header {
     overflow-x: hidden;
@@ -508,7 +537,7 @@ footer h4 {
     bottom: 68px;
   }
   main {
-    overflow-x: hidden;
+    overflow-y: hidden;
   }
   main h2 {
     font-size: 40px;
@@ -555,16 +584,93 @@ footer h4 {
   main .columnacamisetas img {
     width: 200px;
     height: auto;
-    margin-bottom: 170px;
+    margin-bottom: 140px;
   }
   main .p1camisetas {
     max-width: 550px;
+    top: 5px;
     left: 200px;
   }
   header .escudo.ref {
     height: 150px;
     width: auto;
     left: 25px;
+  }
+}
+@media (max-width: 762px) {
+  main {
+    position: relative;
+    padding-bottom: 50px;
+    overflow-y: hidden;
+  }
+  main .fundacion {
+    top: 340px;
+    left: 225px;
+  }
+  main .fundaciontitulo {
+    bottom: 210px;
+    left: 30px;
+  }
+  main .p1fundacion {
+    left: 0px;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  main .p2fundacion {
+    bottom: -40px;
+  }
+  main .p3fundacion {
+    bottom: -40px;
+  }
+  main .colorestitulo {
+    bottom: -40px;
+  }
+  main .pcolores {
+    bottom: -40px;
+  }
+  main .escudotitulo {
+    bottom: 130px;
+  }
+  main .pescudo {
+    bottom: 125px;
+  }
+  main .hescudos {
+    width: 325px;
+    height: auto;
+    bottom: -300px;
+    left: 250px;
+  }
+  main .himnostitulo {
+    bottom: 0px;
+  }
+  main .p1himnos {
+    bottom: -10px;
+  }
+  main .himno1 {
+    font-size: 30px;
+    bottom: -20px;
+  }
+  main .p2himnos {
+    bottom: -20px;
+  }
+  main .himno2 {
+    font-size: 30px;
+    bottom: -20px;
+  }
+  main .columnacamisetas {
+    top: 100px;
+  }
+}
+@media (max-width: 675px) {
+  main .fundacion {
+    top: 412px;
+    left: 195px;
+  }
+  main .hescudos {
+    width: 305px;
+    height: auto;
+    bottom: -340px;
+    left: 250px;
   }
 }
 @media (max-width: 425px) {
@@ -632,6 +738,7 @@ footer h4 {
   }
   main .p1fundacion {
     left: 0px;
+    margin-bottom: 20px;
   }
   main .p2fundacion {
     bottom: -40px;
@@ -701,12 +808,18 @@ footer h4 {
   }
 }
 @media (max-width: 409px) {
+  main .hescudos {
+    left: 111px;
+    bottom: -435px;
+  }
+}
+@media (max-width: 389px) {
   main .fundacion {
-    top: 510px;
+    top: 540px;
   }
   main .hescudos {
     bottom: -445px;
-    left: 108px;
+    left: 100px;
   }
 }
 @media (max-width: 387px) {
@@ -714,7 +827,7 @@ footer h4 {
     top: 542px;
   }
   main .hescudos {
-    bottom: -495px;
+    bottom: -475px;
   }
 }
 @media (max-width: 375px) {
@@ -793,6 +906,32 @@ footer h4 {
     font-size: 14px;
   }
 }
+@media (max-width: 373px) {
+  main .escudotitulo {
+    margin-top: 30px;
+  }
+  main .hescudos {
+    width: 250px;
+    height: auto;
+    bottom: -510px;
+    left: 110px;
+  }
+}
+@media (max-width: 367px) {
+  main .fundacion {
+    top: 570px;
+  }
+}
+@media (max-width: 338px) {
+  main .fundacion {
+    top: 600px;
+    left: 14px;
+  }
+  main .hescudos {
+    bottom: -540px;
+    left: 100px;
+  }
+}
 @media (max-width: 320px) {
   header {
     height: 160px;
@@ -859,7 +998,7 @@ footer h4 {
   main .hescudos {
     height: 120px;
     width: auto;
-    bottom: -560px;
+    bottom: -590px;
     left: 115px;
   }
   main .himno1 .himno2 {

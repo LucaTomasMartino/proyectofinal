@@ -1,20 +1,24 @@
 main{
+    overflow-y: hidden;
     .p1camisetas{
         max-width:980px;
         position: relative;
-        bottom:-45px ;
+        top:6px ;
         left: 270px;
     }
     .columnacamisetas{
         display: flex;
         flex-direction: column;
-        width: 250px;
+        width: 230px;
         height: auto;
         position: absolute;
         top: 450px;
     }
     .columnacamisetas img{
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
+    }
+    .footercamisetas{
+
     }
 }
